@@ -22,7 +22,7 @@ public void initialize_the_browser_and_navigate_to_login_page(){
 	login=new Login();
 	String actualTitle=login.title();
 	Assert.assertEquals("Free CRM #1 cloud software for any business large or small", actualTitle);
-	TestUtil.implicitWait(driver); 
+	TestUtil.implicitWait(driver);
 	login.navigateToLoginPage();
 	String loginTitle=login.title();
 	Assert.assertEquals("CRM", loginTitle);
