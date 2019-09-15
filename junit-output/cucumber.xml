@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="26.309625">
+<testcase classname="FreeCRM features" name="login page functionality check" time="26.309625">
+<system-out><![CDATA[Given initialize the browser and navigate to login page.....................passed
+When user is using valid username and password..............................passed
+Then user is logged in to application successfully..........................passed
+Then user close the browser instance........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

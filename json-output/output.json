@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "login page functionality check",
+        "description": "",
+        "id": "freecrm-features;login-page-functionality-check",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21748517647,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "initialize the browser and navigate to login page",
+            "match": {
+              "location": "FreeCRM_login.initialize_the_browser_and_navigate_to_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 852713758,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is using valid username and password",
+            "match": {
+              "location": "FreeCRM_login.user_is_using_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2937333328,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is logged in to application successfully",
+            "match": {
+              "location": "FreeCRM_login.user_is_logged_in_to_application_successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 771059802,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user close the browser instance",
+            "match": {
+              "location": "FreeCRM_login.user_close_the_browser_instance()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM features",
+    "description": "",
+    "id": "freecrm-features",
+    "keyword": "Feature",
+    "uri": "./src/main/java/com/qa/features/login.feature"
+  }
+]
