@@ -4,15 +4,15 @@
     "elements": [
       {
         "line": 2,
-        "name": "login page functionality check",
+        "name": "Contact page functionality",
         "description": "",
-        "id": "freecrm-features;login-page-functionality-check",
+        "id": "contact-features;contact-page-functionality",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 21748517647,
+              "duration": 23656055385,
               "status": "passed"
             },
             "line": 3,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 852713758,
+              "duration": 864092605,
               "status": "passed"
             },
             "line": 4,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 2937333328,
+              "duration": 2098831203,
               "status": "passed"
             },
             "line": 5,
@@ -48,10 +48,81 @@
           },
           {
             "result": {
-              "duration": 771059802,
+              "duration": 253917875,
               "status": "passed"
             },
             "line": 6,
+            "name": "Customer click contacts option",
+            "match": {
+              "location": "FreeCRM_contacts.customer_click_contacts_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 319472276,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "customer navigate to contact page",
+            "match": {
+              "location": "FreeCRM_contacts.customer_navigate_to_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1931646621,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "customer clicks on New button",
+            "match": {
+              "location": "FreeCRM_contacts.customer_clicks_on_New_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7782951231,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer enters firstname and lastname and save changes",
+            "match": {
+              "location": "FreeCRM_contacts.customer_enters_firstname_and_lastname(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "FIRSTNAME",
+                  "LASTNAME"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "bikrr",
+                  "sahoo"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "gaurr",
+                  "sahoo"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 803504639,
+              "status": "passed"
+            },
+            "line": 13,
             "name": "user close the browser instance",
             "match": {
               "location": "FreeCRM_login.user_close_the_browser_instance()"
@@ -61,10 +132,10 @@
         ]
       }
     ],
-    "name": "FreeCRM features",
+    "name": "contact features",
     "description": "",
-    "id": "freecrm-features",
+    "id": "contact-features",
     "keyword": "Feature",
-    "uri": "./src/main/java/com/qa/features/login.feature"
+    "uri": "./src/main/java/com/qa/features/contacts.feature"
   }
 ]
